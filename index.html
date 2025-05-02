@@ -133,7 +133,7 @@
         <h2 class="title is-3">About This Tutorial</h2>
         <div class="content has-text-justified">
           <p>
-            This tutorial on adaptation of Large Language Models (LLMs) is designed to address the growing demand for models that go beyond the static capabilities of generic LLMs by providing an overview of dynamic, domain-specific, and task-adaptive LLM adaptation techniques. While general LLMs have demonstrated strong generalization across a variety of tasks, they often struggle to perform well in specialized domains such as finance, healthcare, and code generation for underrepresented languages. Additionally, their static nature limits their ability to evolve with the changing world, and they are often extremely large in size, making them impractical and costly to deploy at scale. As a result, the adaptation of LLMs has drawn much attention since the birth of LLMs and is of core importance, both for industry, which focuses on serving its targeted users, and academia, which can greatly benefit from small but powerful LLMs. 
+            <strong>This tutorial on adaptation of Large Language Models (LLMs) is designed to address the growing demand for models that go beyond the static capabilities of generic LLMs by providing an overview of dynamic, domain-specific, and task-adaptive LLM adaptation techniques.</strong> While general LLMs have demonstrated strong generalization across a variety of tasks, they often struggle to perform well in specialized domains such as finance, healthcare, and code generation for underrepresented languages. Additionally, their static nature limits their ability to evolve with the changing world, and they are often extremely large in size, making them impractical and costly to deploy at scale. As a result, the adaptation of LLMs has drawn much attention since the birth of LLMs and is of core importance, both for industry, which focuses on serving its targeted users, and academia, which can greatly benefit from small but powerful LLMs. 
           </p> <p> 
             To address this gap, this tutorial aims to provide an overview of the LLM adaptation techniques. We start with an introduction to LLM adaptation, from both the data perspective, which has been widely accepted as one of the most important ingredients in LLM training, and the model perspective, which focuses on the training strategies to adapt the LLMs. We then emphasize how the evaluation metrics and benchmarks are different from other techniques. After establishing the problems in the aforementioned sessions, we explore various adaptation techniques. We categorize adaptation techniques into two main families. The first is parametric knowledge adaptation, which focuses on updating the <strong>parametric knowledge</strong> within LLMs, including methods like <strong>Continual Pre-Training (CPT)</strong>, <strong>Instructional Tuning (IT)</strong>, <strong>Supervised Preference Learning (SPL)</strong> via human or model feedback, and <strong>Reinforcement Learning (RL)</strong>. The second kind of adaptation is <strong>semi-parametric knowledge adaptation</strong>, where the goal is to update LLM parameters to better interact with the external environment (shifting from standalone LLM to agentic system). As an example, we focus on how LLM leverage external knowledge through techniques like retrieval-augmented generation (RAG). 
             <!-- Additionally, we will discuss real-time adaptation techniques, including model editing, which allows LLMs to be updated dynamically in production environments. -->
@@ -266,12 +266,16 @@
 
         <h3 class="title is-5">Section 2: Evaluation and Benchmark</h3>
         <ul>
+          <li><a href="https://arxiv.org/pdf/2504.09037"><b>A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems</b></a> (Ke et al., 2025)</li>
           <li><a href="https://arxiv.org/abs/2410.03727"><b>FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"
           </b></a> (Ming et al., 2024)</li>
           <li><a href="https://arxiv.org/abs/2501.04961"><b>Demystifying Domain-adaptive Post-training for Financial LLMs</b></a> (Ke et al., 2025)</li>
           <li><a href="https://arxiv.org/abs/1908.10090"><b>Does Context Matter? ContextualJudgeBench for evaluating LLM-based judges in contextual settings</b></a> (Xu et al., 2025)</li>
           <li><a href="https://arxiv.org/abs/2206.07682">Emergent Abilities of Large Language Models</a> (Wei et al., 2022)</li>
           <li><a href="https://arxiv.org/abs/2407.01502">AI Agents That Matter</a> (Kapoor et al., 2024)</li>
+          <li><a href="https://arxiv.org/abs/2410.02694">HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly</a> (Yen et al., 2024)</li>
+          <li><a href="https://arxiv.org/abs/2308.14508">LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding</a> (Bai et al., 2024)</li>
+          <li><a href="https://github.com/gkamradt/LLMTest_NeedleInAHaystack">Needle in a haystack - pressure testing LLMs</a> (Kamradt et al., 2024)</li>
         </ul>
         <br />
 
@@ -310,6 +314,7 @@
           <li><a href="https://arxiv.org/pdf/2301.12652">REPLUG: Retrieval-Augmented Black-Box Language Models</a> (Shi et al., 2023)</li>
           <li><a href="https://arxiv.org/abs/2208.03299">Atlas: Few-shot Learning with Retrieval Augmented Language Models</a> (Izacard et al., 2022)</li>
           <li><a href="https://arxiv.org/abs/2310.01352">RA-DIT: Retrieval-Augmented Dual Instruction Tuning</a> (Lin et al., 2024)</li>
+          <li><a href="https://arxiv.org/abs/2407.20183">MindSearch: Mimicking Human Minds Elicits Deep AI Searcher</a> (Chen et al., 2024)</li>
         </ul>
         <br />
 
